@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascript calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light " id="nav">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Assingment</a>
+        <a class="nav-link  text-white" href="#">chapter 8-14</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex ms-auto">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center">Chapter # 8-14 | Concatenation | Prompts | if...else and else if statements
+          </h3>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container border  border-dark mt-5  py-3 ">
+      <div class="row ">
+        <div class="col-sm-12 col-md-6 col-lg-12 text-center">
+          <button onclick="concatenate()" class="btn btn-danger mt-3">Concatenate Some Strings</button>
+          <button onclick="username()" class="btn btn-danger mt-3">Ask Name From User</button>
+          <button onclick="camparison()" class="btn btn-danger mt-3">Comparison Operators</button>
+          <button onclick="ifelse()" class="btn btn-danger mt-3">if else if</button>
+          <button onclick="ageweight()" class="btn btn-danger mt-3 ">Testing Sets of Conditions</button>
+          <button onclick="nestedif()" class="btn btn-danger mt-3">if Statement Nested</button>
+          <button onclick="login()" class="btn btn-danger mt-3 ">Login</button>
+          <button onclick="check()" class="btn btn-danger mt-3">Check</button>
+        </div>
+      </div>
+    </div>
+    <h3 class="text-center mt-5">Original Statement</h3>
+    <div class="container border  border-dark py-4  " id="input">
+      <div class="row">
+        <div class="col text-center">
+          <p id="para"></p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center mt-4 ">
+      <button onclick="inpclear()" class="btn border border-dark" id="btn1">Clear Statement</button>
+    </div>
+    <h3 class="text-center mt-5">Output / Result</h3>
+    <div class="container border border-dark py-4 mb-3">
+      <div class="row">
+        <div class="col text-center">
+          <p id="output"></p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4"><button onclick="outclear()" id="btn2" class="btn border border-dark">Clear
+        Output</button></div>
+  </main>
+  <footer>
+
+    <div class="container-fluid  pt-3 mt-5 " id="footer">
+      <div class="row">
+        <div class="col text-center text-white">
+          <p>© 2022 Assingment <b> <a class="text-white text-decoration-none"
+                href="https://github.com/usamaafif">https://github.com/usamaafif</a></b></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+    </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
